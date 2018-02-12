@@ -18,5 +18,8 @@ class Triangle
 end
 
 class TriangleError < StandardError
- # triangle error code
+
+  def triangle_error
+    "Warning: Not a triangle!"
+  end
 end
